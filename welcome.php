@@ -18,7 +18,16 @@
         <center>
         <div id = 'container_welcome'>
            <!--Image logo--> 
-           <img src = './img/img_heptlogo.png' style = 'width: 50%;' >
+           <img src = './img/img_cmsicon.png' style = 'width: 10%; margin-top: 2vh; margin-bottom:1vh; ' ><br/>
+           <h1>Class Management System</h1>
+           <sh1>Powered by <b>heptagonOS</b></sh1>
+
+           <br/><br/>
+
+           <form action = '' method = 'post' id = 'form_welcome_signin'>
+                <input type = 'text' name = 'tb_email' placeholder = 'Email' autocomplete = 'off' required/>
+           </form>
+
         </div>
         </center>
     </div>

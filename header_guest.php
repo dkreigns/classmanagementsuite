@@ -4,20 +4,20 @@
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,800" rel="stylesheet">
 <body>
     <div id = 'format_header'>
-    
+
     <table border = 0>
     <tr>
 
         <!-- Logo Header -->
         <td style = 'width: 50%;'>
             <a href = 'index.php' style = 'color: #ffffff; text-decoration:none;' >
-            Class Management Suite
+            <img src = './img/img_cmslogo.png' style = 'width: 20%;vertical-align: middle;' >
             </a>
         </td>
 
         <!-- Profile Header-->
         <td style = 'text-align: right;'>
-            Sign In
+            Register
             <img src = './img/img_profile.png' style = 'width: 4%;vertical-align: middle; padding: 1vh;' >
         </td>
 

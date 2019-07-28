@@ -32,19 +32,52 @@
 
  
   color: #000000;
-  font-size: 40px;
+  font-size: 2vh;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
 
   /*overflow: auto;*/
   word-wrap: break-word;
-  margin-top: 14vh;
+  margin-top: 10vh;
   width: 50%;
   height: 100%;
 
-  padding: 7px;
+  padding: 2vh;
 
 }
+
+#container_welcome h1
+{
+  font-size: 4vh;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #607D8B;
+}
+
+
+#container_welcome sh1
+{
+  font-size: 2vh;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #909090;
+}
+
+
+
+#container_welcome input[type="text"]
+{
+  font-size: 2vh;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  padding: 1vh;
+
+  background: #9C27B0;
+  color: #ffffff;
+  border: 0;
+}
+
+
 
 
 #format_header
