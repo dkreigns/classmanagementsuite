@@ -79,6 +79,14 @@
   margin-bottom: 1vh;
 }
 
+#container_welcome input[type="text"]::placeholder
+{
+  font-size: 2vh;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+}
+
 #container_welcome input[type="password"]
 {
   font-size: 2vh;
@@ -91,6 +99,14 @@
   border: 0;
   border-radius: 1.5vh;
   margin-bottom: 1vh;
+}
+
+#container_welcome input[type="password"]::placeholder
+{
+  font-size: 2vh;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #ffffff;
 }
 
 #container_welcome input[type="submit"]
@@ -151,4 +167,6 @@
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   font-size: 2vh;
+
+  margin-top: 20vh;
 }
