@@ -1,0 +1,47 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container_main
+{
+    background-image: url('../img/back_background.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    position: fixed;
+    
+    width: 100%;
+    height: 100%;
+
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: white;
+}
+
+#container_welcome
+{
+  position: relative;
+  background: rgba(255,255,255,0.77);
+  border-radius: 10px;
+
+ 
+  color: #000000;
+  font-size: 40px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+
+  /*overflow: auto;*/
+  word-wrap: break-word;
+  margin-top: 14vh;
+  width: 50%;
+  height: 100%;
+
+  padding: 7px;
+
+}
