@@ -5,6 +5,7 @@
 <body>
     <div id = 'format_header'>
 
+    <center>
     <table border = 0>
     <tr>
 
@@ -24,7 +25,8 @@
 
     </tr>
     </table>
-    
+    </center>
+
     </div>
 </body>
 </html>

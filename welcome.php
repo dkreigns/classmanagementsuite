@@ -13,6 +13,10 @@
 <body>
     <div class = 'container_main'>
 
+    <video class = "videobackground" poster = "./img/back_background.jpg" autoplay loop muted>
+        <source src = "./img/back_videobackground.webm" type = "video/webm">
+    </video>
+
     <!-- Import Header-->
     <?php include('header_guest.php');?>
         <center>
@@ -26,10 +30,30 @@
 
            <form action = '' method = 'post' id = 'form_welcome_signin'>
                 <input type = 'text' name = 'tb_email' placeholder = 'Email' autocomplete = 'off' required/>
-           </form>
+                <br/>
+                <input type = 'password' name = 'tb_password' placeholder = 'Password' autocomplete = 'off' required/>
+                <br/><br/>
+                <input type = 'submit' name = 'btn_signup' value = 'Sign Up'>
+            </form>
 
+            <br/>
+
+            <img src = './img/img_heptlogo.png' style = 'width: 20%;' >
+
+        
+        
         </div>
+
+        
+       
         </center>
+
+        <center>
+        <br/><br/><br/><br/><br/>
+        <!-- Import Header-->
+        <?php include('footer.php');?>
+        </center>
+
     </div>
 </body>
 </html>
