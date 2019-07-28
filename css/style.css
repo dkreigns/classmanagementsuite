@@ -45,3 +45,18 @@
   padding: 7px;
 
 }
+
+
+#format_header
+{
+  margin-left: 3vh;
+  margin-right: 3vh;
+  margin-top: 2vh;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+#format_header table
+{
+  width: 100%;
+}

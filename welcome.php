@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,13 +12,15 @@
 </head>
 <body>
     <div class = 'container_main'>
-        
+
+    <!-- Import Header-->
+    <?php include('header_guest.php');?>
         <center>
         <div id = 'container_welcome'>
-            Welcome
+           <!--Image logo--> 
+           <img src = './img/img_heptlogo.png' style = 'width: 50%;' >
         </div>
         </center>
-
     </div>
 </body>
 </html>
